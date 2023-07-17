@@ -4,8 +4,10 @@ EX:
 請輸入python年齡:10
 python與同學年齡加起來16歲
 '''
-班上同學=8歲
-a=input("請輸入python年齡")
-a=int(a)
-a=a+班上同學
-print("python與班上同學年齡加起來%d歲"%(a))
+
+班上同學 = 8
+python = input("請輸入python年齡")
+python = int(python)
+班上同學 = int(班上同學)
+a = 班上同學 + python
+print("python與同學年加起來%d歲" % (a))
