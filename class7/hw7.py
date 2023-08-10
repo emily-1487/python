@@ -11,5 +11,14 @@ E : 59 分以下
 ex:
 例如:使用者輸入成績50 顯示E。使用者輸入62則顯示D
 '''
-s=input("請輸入成績:")
-if s==""
+s=input("請輸入成績")
+if s>="90":  
+    print("你的等級為A")
+elif s>="80"and<="89":
+    print("你的等級為B")
+elif s>="70"and<="79":
+    print("你的等級為C")
+elif s>="60"and<="69":
+    print("你的等級為D")
+elif s<="59":
+    print("你的等級為E")
