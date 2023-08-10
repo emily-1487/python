@@ -20,5 +20,6 @@ elif s>="70"and<="79":
     print("你的等級為C")
 elif s>="60"and<="69":
     print("你的等級為D")
-elif s<="59":
+else:
+    s<="59":
     print("你的等級為E")
