@@ -21,6 +21,15 @@ EX:
 體重過重
 '''
 w = input("請輸入你的體重")
+w = float(w)
 h = input("請輸入你的身高")
+h = float(h)
 bmi = w / h**2
-print("你的BMI為" + str(bmi))
+print("你的bmi為" + str(bmi))
+if bmi < 14.8:
+    print("體重過輕")
+elif 14.8 <= bmi <= 20.7:
+    print("體重正常")
+else:
+    bmi > 20.7
+    print("體重過重")
