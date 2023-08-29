@@ -14,7 +14,6 @@ import turtle
 for i in range(0, 6):
     turtle.forward(150)
     turtle.left(60)
-print(i)
 turtle.done()
 
 for i in range(3, 100, 3):
