@@ -14,6 +14,9 @@ turtle.done()
 import turtle
 import time
 
+import turtle
+import time
+
 turtle.clear()
 turtle.right(20)
 turtle.forward(120)
