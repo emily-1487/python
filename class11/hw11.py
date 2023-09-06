@@ -30,3 +30,16 @@ EX:
   *
   *
 """
+# hw11-1
+a = int(input("請輸入正整數:"))
+for a in range(1, a):
+    b = a % 3
+    c = a % 7
+    if (b and c) == 0:
+        print(a)
+# hw11-2
+a = int(input("請輸入箭頭大小:"))
+for i in range(1, a + 1):
+    print(' ' * (a - i) + '*' * (2 * i - 1))
+for j in range(1, a + 1):
+    print(' ' * (a - 1) + '*')
