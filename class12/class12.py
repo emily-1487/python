@@ -35,15 +35,14 @@
 #     Sum += price
 #     print("目前總金額為" + str(Sum) + "元")
 #     price = int(input("請輸入商品金額:"))
-# x = int(input("請輸入正整數:"))
-# if x == 1:
-#     print(f"{x}不是質數")
-# else:
-#     i = 2
-#     while x % i != 0 and i != x:
-#         i += 1
-#     if i == x:
-#         print("yes")
-#     else:
-#         print("no")
-a = int(input("請輸入正整數:"))
+x = int(input("請輸入正整數:"))
+if x == 1:
+    print(f"{x}不是質數")
+else:
+    i = 2
+    while x % i != 0 and i != x:
+        i += 1
+    if i == x:
+        print("yes")
+    else:
+        print("no")
