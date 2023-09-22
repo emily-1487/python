@@ -10,18 +10,20 @@
 如果客人按錯了按鈕（也就是輸入了不正確的編號），你需要告訴他們「輸入錯誤查無此果汁，請重新輸入」。
 '''
 
-s = print("1.蘋果汁")
-s = print("2.柳橙汁")
-s = print("3.葡萄汁")
-s = print("4.系統關閉")
-a = int(input("請輸入編號:"))
-if a == 1:
-    print("您點的商品是蘋果汁")
-elif a == 2:
-    print("您點的商品是柳橙汁")
-elif a == 3:
-    print("您點的商品是葡萄汁")
-elif a == 4:
-    print("系統關閉")
-else:
-    print("輸入錯誤查無此果汁，請重新輸入")
+while True:
+    print("1. 蘋果汁")
+    print("2. 柳橙汁")
+    print("3. 葡萄汁")
+    print("4. 系統關閉")
+    a = input("請輸入編號:")
+    if a == "1":
+        print("您點的商品是蘋果汁")
+    elif a == "2":
+        print("您點的商品是柳橙汁")
+    elif a == "3":
+        print("您點的商品是葡萄汁")
+    elif a == "4":
+        print("系統關閉")
+        break
+    else:
+        print("輸入錯誤查無此果汁，請重新輸入")
