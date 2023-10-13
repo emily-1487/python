@@ -20,7 +20,7 @@ EX:
 '''
 import random
 
-a = random.randint(1, 100)
+a = random.randint(1, 101)
 s = 1
 d = 100
 while True:
