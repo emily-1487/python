@@ -16,7 +16,7 @@ import random
 # print(random.randrange(101))
 #random.randrange(終止值)
 # print(random.randint(1, 1487))
-# print(random.randint(起始值,終止值))
+# print(random.randint(起始值,終止值,遞進值))
 # import random as r
 
 # print(r.randint(1, 10))
