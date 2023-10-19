@@ -16,7 +16,7 @@ while True:
     elif a == "3":
         print("葡萄汁")
     elif a == "4":
-        print("系統關閉")
+        print("~~系統關閉~~")
         break
     else:
         print("沒有此果汁")
