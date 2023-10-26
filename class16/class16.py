@@ -39,7 +39,7 @@
 # fruit_list = ["火龍果", "哈密瓜", "百香果", "橘子", "蘋果", "香蕉", "梨", "李", "桃"]
 # print("最長的水果名字是" + max(fruit_list))
 # print("最短的水果名字是" + min(fruit_list))
-a = "2023/10/20"
-a = a.split("/")
-a = "-".join(a)
-print(a)
+# a = "2023/10/20"
+# a = a.split("/")
+# a = "-".join(a)
+# print(a)
