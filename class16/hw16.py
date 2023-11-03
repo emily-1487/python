@@ -52,3 +52,19 @@ while True:
             print("已取消點餐清單中特定位置的餐點!")
         else:
             print("輸入位置不正確~")
+    elif a == "7":
+        A_list.sort()
+        print("點餐出餐順序已按升序排序!")
+    elif a == "8":
+        A_list.sort(reverse=True)
+        print("點餐出餐順序已按降序排序!")
+    elif a == "9":
+        A_list.reverse()
+        print("點餐出餐順序已反轉!")
+    elif a == "10":
+        order = input("請輸入你想要查詢出餐順序的餐點")
+        if order in new_list:
+            index = new_list.index(order)
+            print("餐點" + order + "出餐的順序是:" + str(index))
+        else:
+            print("該餐點不再清單中!")
