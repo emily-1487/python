@@ -57,7 +57,7 @@
 # food_first["果汁"]=25
 # print(len(food_first))
 # len=取得key的數量
-A={"小明":"樂高積木","小花":"畫筆","小強":"足球","小美":"書","小偉":"遙控車"}
-print("一共收到了"+str(len(A))+"個禮物")
-for name,A in A.items():
-    print(name+"送了你一個"+A)
+# A={"小明":"樂高積木","小花":"畫筆","小強":"足球","小美":"書","小偉":"遙控車"}
+# print("一共收到了"+str(len(A))+"個禮物")
+# for name,A in A.items():
+#     print(name+"送了你一個"+A)
