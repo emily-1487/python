@@ -12,4 +12,3 @@
 #     else:
 #         return b
 # print(my_min(2,1))
-global=
