@@ -9,10 +9,8 @@ def roll_dice(n):
 import random
 def roll_dice(n):
     results=[]
-    for _ in range(n):
-        a=random.randint(1,6)
-        results.append(a)
+    for i in range(n):
+        results.append(random.randint(1,6))
     return results
-n=int(input("請輸入骰子的次數:"))
-z=roll_dice(n)
-print("擲骰子的結果：", z)
+z=int(input("請輸入骰子的次數:"))
+print(roll_dice(z))
