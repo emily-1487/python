@@ -20,3 +20,6 @@
 # num=1234567.89
 # print("{:,.2f}".format(num))
 
+a="abcdefghijklmnopqrstuvwxyz"
+a[3:15]
+print(a)
